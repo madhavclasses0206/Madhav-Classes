@@ -2130,6 +2130,7 @@ body.result-page{
     }
 }
 .map-container{
+   
     border-radius:20px;
     overflow:hidden;
     box-shadow:0 15px 35px rgba(0,0,0,0.12);
@@ -2138,4 +2139,19 @@ body.result-page{
 
 .map-container:hover{
     transform:translateY(-5px);
+   .instagram-btn{
+    display:inline-block;
+    padding:12px 22px;
+    background:#E1306C;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.instagram-btn:hover{
+    background:#C13584;
+}
+   
 }
