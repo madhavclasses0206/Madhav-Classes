@@ -207,31 +207,28 @@ img{
    HERO SECTION
 ========================================== */
 
-@media (max-width:768px){
-
 .hero{
-    height:auto;
-    min-height:auto;
-}
-
-
     display:flex;
     align-items:center;
     justify-content:space-between;
-
     gap:50px;
-
-    padding:
-    140px 7%
-    80px;
-
-    background:
-    linear-gradient(
-    135deg,
-    #ffffff,
-    #f8fbff
-    );
+    padding:140px 7% 80px;
+    background:linear-gradient(135deg,#ffffff,#f8fbff);
 }
+
+@media (max-width:768px){
+
+    .hero{
+        height:auto;
+        min-height:auto;
+
+        flex-direction:column;
+        justify-content:center;
+
+        padding:100px 7% 40px;
+        gap:20px;
+    }
+
 
 .hero-content{
     flex:1;
