@@ -207,8 +207,13 @@ img{
    HERO SECTION
 ========================================== */
 
+@media (max-width:768px){
+
 .hero{
-    min-height:100vh;
+    height:auto;
+    min-height:auto;
+}
+
 
     display:flex;
     align-items:center;
